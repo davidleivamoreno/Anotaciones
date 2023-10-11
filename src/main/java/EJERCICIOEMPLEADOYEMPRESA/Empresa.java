@@ -10,6 +10,9 @@ import java.util.Set;
 @EmpleadoAnot(nombre = "Ron", apellidos = "Weasly", dni = "987654321",  codigoDespacho = "102")
 @EmpleadoAnot(nombre="Luna",apellidos = "Lovegood",dni="64364365413W",codigoDespacho="136843435")
 
+/**
+ * Crea un set de Empleados e introduce cada uno de ellos
+ */
 public class Empresa {
     private Set<Empleado> empleadoSet=new HashSet<>();
     public Empresa(){

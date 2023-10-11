@@ -9,7 +9,7 @@ public class UtilContexto {
                 String nombre=empleadoAnotHijo.nombre();
                 String apellidos= empleadoAnotHijo.apellidos();
                 String dni=empleadoAnotHijo.dni();
-
+                empresa.getEmpleadoSet().add(new Empleado(nombre,apellidos,dni));
             }
     }
 }
