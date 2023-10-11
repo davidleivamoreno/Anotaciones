@@ -30,7 +30,7 @@ import java.util.Set;
         telefono="+34 42874384",
         direccion = "Avd Mexico",
         clase="",
-        codigoDespacho=136843434
+        codigoDespacho=136843435
 )
 public class Empresa {
     private Set<Empleado> empleadoSet=new HashSet<>();
