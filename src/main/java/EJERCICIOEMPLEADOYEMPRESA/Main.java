@@ -5,7 +5,7 @@ public class Main {
         Empresa empresa=new Empresa();
         UtilContexto.cargadorDeContexto(empresa);
         for (Empleado empleado: empresa.getEmpleadosSet()){
-            System.out.println(empleado);
+            System.out.println(empleado.toString());
         }
     }
 }
