@@ -30,7 +30,7 @@ public class EmpresaTest {
     }
 
     /**
-     * Prueba el método {@link UtilContexto#cargadorDeContexto(Empresa)} para asegurar que los empleados se carguen correctamente.
+     * Prueba el metodo {@link UtilContexto#cargadorDeContexto(Empresa)} para asegurar que los empleados se carguen correctamente.
      */
     @Test
     public void testCargadorDeContexto() {
